@@ -31,7 +31,7 @@ header a {
     line-height: 1.5;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #272044;
+    color: rgb(39, 32, 68);
     background-color: white;
     text-align: center;
     text-decoration: none;
@@ -47,12 +47,38 @@ header a {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/hero-bg.jpeg");
+    background-image: linear-gradient(rgba(39, 32, 68, 0.3), rgba(39, 32, 68, 0.3)), url("../images/hero-bg.jpeg");
     background-position: center;
     background-size: cover;
     color: white;
     text-align: center;
     padding: 250px 0;
+}
+
+/* FOOTER */
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+}
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    max-width: 1600px;
+    padding: 80px;
+    color: white;
+    background-image: linear-gradient(rgba(39, 32, 68, 0.7), rgba(39, 32, 68, 0.7)), url("../images/footer-bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    gap: 35px;
 }
 
 /* MEDIA QUERIES */
