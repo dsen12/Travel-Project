@@ -74,14 +74,31 @@ header {
 
 /* FOOTER */
 
+footer h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+}
+
+footer p {
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
 footer ul {
     list-style: none;
     padding: 0;
+    text-align: left;
 }
 
 footer a {
     color: white;
     line-height: 2;
+    opacity: 0.7;
 }
 
 
@@ -129,7 +146,7 @@ main p {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
     header {
         padding: 60px 0;
     }
@@ -143,6 +160,25 @@ main p {
     }
 
     header h3 {
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    main {
+        padding: 40px 60px;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+    main h3 {
+        font-size: 16px;
+    }
+    main p {
+        font-size: 16px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
     }
 }
