@@ -241,7 +241,15 @@ main .secondary-section {
     width: 100%;
     aspect-ratio: 1/1;
     height: 180px;
+}
 
+main .tertiary-section {
+    background-color: white;
+    padding: 80px 130px;
+}
+
+.instagram-embeds {
+    margin-top: 50px;
 }
 
 /* MEDIA QUERIES */
