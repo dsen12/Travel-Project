@@ -273,12 +273,30 @@ main .tertiary-section {
     }
 
     /* MAIN */
+
+    main .main-section, main .secondary-section, main .tertiary-section {
+        padding: 10px 10px;
+    }
+     
     main {
-        padding: 40px 60px;
+        padding: 20px 20px;
     }
 
-    main h2 {
-        font-size: 24px;
+    footer {
+        padding: 10px 10px;
+    }
+
+    footer section {
+        padding: 10px 10px;
+        margin-top: 15px;
+    }
+
+    .secondary-section h2, .main-section h2, .tertiary-section h2 {
+        font-size: 28px;
+    }
+
+    .tertiary-section, .secondary-section {
+        margin-top: 15px;
     }
 
     main h3 {
@@ -296,5 +314,9 @@ main .tertiary-section {
 
     .embed {
         aspect-ratio: 16/9;
+    }
+
+    .instagram-media {
+        margin: 0 auto !important;
     }
 }
